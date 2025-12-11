@@ -41,10 +41,10 @@ IFNULL(
 ```
 
 #### 2. PowerBI Data Modelling
-*Date Handling:* Merged split Year/Month columns from SQL into a unified Date hierarchy in Power BI to enable continuous time-series analysis.
+**Date Handling:** Merged split Year/Month columns from SQL into a unified Date hierarchy in Power BI to enable continuous time-series analysis.
 
-*Data Skew:* Handled massive growth outliers (e.g., store launch months with 5000% growth) by implementing logical filtering and axis-clamping to ensure the visual narrative focused on sustainable growth trends.
+**Data Skew:** Handled massive growth outliers (e.g., store launch months with 5000% growth) by implementing logical filtering and axis-clamping to ensure the visual narrative focused on sustainable growth trends.
 
-*Interactive Slicers:* Built a dynamic "Store Slicer" allowing executives to drill down into specific store performance without leaving the main view
+**Interactive Slicers:** Built a dynamic "Store Slicer" allowing executives to drill down into specific store performance without leaving the main view
 
 Created by Wong Jung Yong
