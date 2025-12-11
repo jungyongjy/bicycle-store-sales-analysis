@@ -38,8 +38,9 @@ LAG(total_revenue) OVER (ORDER BY order_year, order_month) AS previous_revenue,
 IFNULL(
     (total_revenue - LAG(total_revenue) OVER (...)) / LAG(...) * 100, 
 0) AS growth_percentage
+```
 
-2. PowerBI Data Modelling
+#### 2. PowerBI Data Modelling
 *Date Handling:* Merged split Year/Month columns from SQL into a unified Date hierarchy in Power BI to enable continuous time-series analysis.
 
 *Data Skew:* Handled massive growth outliers (e.g., store launch months with 5000% growth) by implementing logical filtering and axis-clamping to ensure the visual narrative focused on sustainable growth trends.
