@@ -1,3 +1,5 @@
+**Project Status:** Completed (Dec 2025)
+
 # 🚲 Bicycle Store Sales Analysis
 
 ### Project Overview
